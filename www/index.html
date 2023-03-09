@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, hight=device-hight,"/>
+    <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <link rel="stylesheet" type="text/css" href="css/indexbuttons.css" />
+    <title>Hjem</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-inverse">
+     <div class="container">
+       <div class="navbar-header">
+         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+           <span class="sr-only">Toggle navigation</span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+         </button>
+         <h3><a class="navbar-brand" href="#">Hjem</a></h3>
+         <img class="thumbnail" src="img/logo.png">
+       </div>
+       <div id="navbar" class="collapse navbar-collapse">
+         <ul class="nav navbar-nav">
+           <li class="active"><a href="index.html">Hjem</a></li>
+           <li><a href="fiskekart.html">Fiskekart</a></li>
+           <li><a href="artregister.html">Artsregister</a></li>
+           <li><a href="kunnskap.html">Kunnskap</a></li>
+           <li><a href="lenker.html">Nyttige Lenker</a></li>
+           <li><a href="om.html">Om</a></li>
+         </ul>
+
+       </div><!--/.nav-collapse -->
+     </div>
+   </nav>
+    <div class="container text-center">
+        <h1> Velkommen til Fiskehjelperen!</h1>
+        <p.class="lead"> En app av Stramt Snøre</p>
+        <img class="thumbnail-3" src="img/icon.png">
+      </div>
+<br>
+<div class="buttonsinline">
+      <div class="container text-center">
+        <div class="btn-group1">
+        <a href='fiskekart.html' class='button'>Kart</a>
+        <a href='artregister.html' class='button'>Arter</a>
+        <a href='kunnskap.html' class='button'>Nyttig</a>
+<br>
+<br>
+        <a href="https://www.fiskehjelperen.no/bidra.html" target="_blank" class='button'>Bidra</a>
+        <a href='lenker.html' class='button'>Lenker</a>
+        <a href='om.html' class='button'>Om</a>
+          </div>
+        </div>
+    </div>
+
+    <!--Device ready -->
+<script>
+document.addEventListener("deviceready", onDeviceReady, false);
+    function onDeviceReady() {
+        console.log("navigator.geolocation works well");
+    }
+    </script>
+<br>
+<br>
+      <div class="container text-center">
+        <p>Følg fiskehjelperen på facebook: facebook.com/fiskehjelperen</p>
+      </div>
+
+      <footer><p class="text-center">Copyright &copy 2017, Fiskehjelperen / Stramt Snøre </p></footer>
+      <footer><p class="text-center">www.fiskehjelperen.no </p></footer>
+
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+</body>
+
+</html>
